@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Message</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            animation: fadeIn 2s;
+        }
+        .big-text {
+            font-size: 3em;
+            color: #ff69b4;
+            margin-bottom: 20px;
+            animation: zoomIn 2s ease-in-out;
+        }
+        .love-text {
+            font-size: 2.5em;
+            color: #ff1493;
+            animation: bounce 2s infinite;
+        }
+        .signature {
+            font-size: 1.5em;
+            color: #ff69b4;
+            margin-top: 20px;
+            animation: fadeIn 4s;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @keyframes zoomIn {
+            from {transform: scale(0);}
+            to {transform: scale(1);}
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="big-text">You are the prettiest Girl💕</div>
+        <div class="love-text">I Love You Hodaya❤</div>
+        <div class="signature">N&H?</div>
+    </div>
+</body>
+</html>
